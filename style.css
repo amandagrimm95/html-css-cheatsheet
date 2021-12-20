@@ -1,13 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body {
     font-family: "lucida bright";
-    text-align: center;
+    background-color:rgb(22, 24, 20);
 }
+
 
 header {
     font-size: 40px;
-    background-color: lightgray;
+    background-color: rgb(87, 87, 87);
     color: rgb(22, 24, 20);
     padding: 50px;
+    text-align: center;
+    border-bottom:3px solid rgb(22, 24, 20);
 }
 
 button {
@@ -17,14 +25,76 @@ button {
     padding: 10px 30px 10px 30px;
     border: 3px solid rgb(22, 24, 20);
     border-radius: 10px;
+    text-align: center;
 }
 
-.pagenav p {
+.pagenav {
     font-size: 20px;
+    background-color: rgb(150, 150, 150);
     font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    border-bottom:3px solid rgb(22, 24, 20);
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
-.homenav p {
+.homenav {
     font-size: 20px;
+    background-color: rgb(150, 150, 150);
     font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    border-bottom:3px solid rgb(22, 24, 20);
+    margin-left: 400px;
+    margin-right: 400px;
 }
+
+figure {
+    text-align: center;
+    padding: 20px;
+}
+
+article {
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: white;
+    padding: 30px 50px 30px 50px;
+}
+
+.title {
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+
+ol {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+table {
+    border: 3px solid rgb(22, 24, 20);
+    border-collapse: collapse;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+th {
+    border: 1px solid rgb(22, 24, 20);
+    padding: 5px;
+    background-color:rgb(87, 87, 87);
+    color: white;
+    text-decoration: underline;
+}
+
+td {
+    border: 1px solid rgb(22, 24, 20);
+    padding: 5px;
+}
+
+p {
+    padding-bottom: 10px;
+}
+
